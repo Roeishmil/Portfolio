@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: content-box;
+}
+body {
+    background-color: rgb(41, 45, 62);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 35px;
+}
+div {
+    border: 3px solid rgb(56, 62, 89);
+    padding: 35px;
+    margin-top: 10px;
+    background-color: rgb(39, 46, 75);
+}
+div #bar {
+    border: none;
+    margin-top: none;
+}
+#menuButton {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    border: none;
+}
+
+#bar {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    padding-top: 0px;
+    border: none;
+}
+#bar button {
+    margin: 5px;
+    border: none;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: #1d3b5b;
+}
+#Head {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 1%;
+    
+}
+#Head h1, #Head p {
+    margin-top: 0px;
+}
+#password {
+    margin-left: 5.5px;
+    margin-top: 8px;
+    background-color: rgb(56, 62, 89);
+}
+#username {
+    background-color: rgb(56, 62, 89);
+}
+#submit {
+    margin-top: 16px;
+    margin-left: 1px;
+    background-color: #1d3b5b;
+}
+#error {
+    color: red;
+    margin-top: 10px;
+}
+#Login {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #Login {
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+#Login form {
+    display: flex;
+    flex-direction: column;
+}
+
+#Login input, #Login button {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
